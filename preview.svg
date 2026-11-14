@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="454" height="454" viewBox="0 0 454 454">
+  <defs>
+    <clipPath id="face"><circle cx="227" cy="227" r="219"/></clipPath>
+    <linearGradient id="weather" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#202820"/><stop offset="1" stop-color="#11181c"/></linearGradient>
+    <linearGradient id="data" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#151a20"/><stop offset="1" stop-color="#0b0f13"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <circle cx="227" cy="227" r="225" fill="#040506" stroke="#525b63" stroke-width="3"/>
+  <g clip-path="url(#face)" font-family="Arial,sans-serif">
+    <path d="M0 0H227V454H0Z" fill="url(#weather)"/>
+    <path d="M227 0H454V454H227Z" fill="url(#data)"/>
+    <circle cx="227" cy="227" r="215" fill="none" stroke="#303941" stroke-width="1.5"/>
+
+    <!-- Date tile -->
+    <rect x="77" y="69" width="87" height="74" rx="12" fill="#20262d" stroke="#48535c" stroke-width="1.5"/>
+    <g fill="none" stroke="#f2f5f7" stroke-width="2" stroke-linecap="round">
+      <rect x="86" y="95" width="19" height="18" rx="3"/>
+      <path d="M87 101h17M91 92v6M100 92v6"/>
+    </g>
+    <text x="135" y="110" fill="#f2f5f7" font-size="15" font-weight="600" text-anchor="middle">14/11</text>
+
+    <!-- Weather widget: icon, value, location, min/max, wind, precipitation -->
+    <rect x="171" y="67" width="204" height="90" rx="12" fill="#20262d" stroke="#59636b" stroke-width="1.5"/>
+    <circle cx="197" cy="82" r="11" fill="#ffbd59" filter="url(#glow)"/>
+    <g fill="#e3edf3">
+      <circle cx="184" cy="94" r="8"/><circle cx="198" cy="89" r="11"/><circle cx="211" cy="95" r="8"/>
+      <rect x="183" y="93" width="29" height="10" rx="5"/>
+    </g>
+    <text x="258" y="97" fill="#ffffff" font-size="27" font-weight="300" text-anchor="middle">18°C</text>
+    <g fill="none" stroke="#e4e9ed" stroke-width="1.8">
+      <circle cx="190" cy="120" r="5"/><path d="M186 124l4 7 4-7"/><circle cx="190" cy="120" r="1.5" fill="#e4e9ed"/>
+    </g>
+    <text x="247" y="126" fill="#f2f5f7" font-size="12" text-anchor="middle" letter-spacing=".4">BRAȘOV</text>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <g stroke="#aab7c0" stroke-width="1.7"><path d="M181 139v7M181 139l-2 3M181 139l2 3"/><circle cx="181" cy="148" r="2.5"/></g>
+      <g stroke="#72c8ef" stroke-width="1.7"><path d="M261 141h12M259 145h12M263 149h10"/></g>
+      <g stroke="#72c8ef" stroke-width="1.7"><path d="M333 138l-4 7a4 4 0 0 0 8 0Z"/></g>
+    </g>
+    <text x="216" y="149" fill="#d8dfe4" font-size="11" text-anchor="middle">9°/21°</text>
+    <text x="292" y="149" fill="#d8dfe4" font-size="11" text-anchor="middle">12km/h</text>
+    <text x="355" y="149" fill="#d8dfe4" font-size="11" text-anchor="middle">20%</text>
+
+    <!-- Large central time -->
+    <rect x="35" y="176" width="384" height="89" rx="15" fill="#070a0d" stroke="#505a63" stroke-width="1.5"/>
+    <text x="227" y="254" fill="#f4f5f6" font-size="76" font-weight="300" text-anchor="middle" letter-spacing="1">10:08</text>
+
+    <!-- Activity and body metrics: icons with their values beside them -->
+    <g fill="#171c22" stroke="#424d56" stroke-width="1.2">
+      <rect x="31" y="271" width="123" height="53" rx="10"/>
+      <rect x="165" y="271" width="123" height="53" rx="10"/>
+      <rect x="299" y="271" width="123" height="53" rx="10"/>
+      <rect x="74" y="331" width="90" height="52" rx="10"/>
+      <rect x="180" y="331" width="94" height="52" rx="10"/>
+      <rect x="288" y="331" width="92" height="52" rx="10"/>
+    </g>
+    <!-- Steps icon + value -->
+    <g fill="none" stroke="#ff9f43" stroke-width="2.5" stroke-linecap="round">
+      <circle cx="54" cy="287" r="3" fill="#ff9f43"/><path d="M51 291l-3 8 6 3M51 295l8 2 3 7M54 302l-3 8M59 297l5 7"/>
+    </g>
+    <text x="110" y="301" fill="#f5f7f8" font-size="15" text-anchor="middle">8.426</text>
+    <!-- Heart icon + value -->
+    <path d="M185 292c0-6 8-8 12-2 4-6 12-4 12 2 0 6-12 14-12 14s-12-8-12-14Z" fill="#ff6e73"/>
+    <text x="242" y="301" fill="#f5f7f8" font-size="15" text-anchor="middle">72bpm</text>
+    <!-- Next sunrise/sunset icon + time -->
+    <g fill="none" stroke="#ffbd59" stroke-width="2" stroke-linecap="round">
+      <path d="M315 298a9 9 0 0 1 18 0M312 299h24M324 283v5M317 287l3 3M331 287l-3 3"/>
+    </g>
+    <text x="375" y="301" fill="#f5f7f8" font-size="15" text-anchor="middle">16:42</text>
+    <!-- Calories icon + value -->
+    <path d="M91 343c-2 7-9 10-4 23h15c5-9 1-14-3-18 0 5-2 7-4 8 2-5-1-10-4-13Z" fill="#ff9f43"/>
+    <text x="137" y="363" fill="#f5f7f8" font-size="14" text-anchor="middle">1.842</text>
+    <!-- Elevation icon + value -->
+    <g fill="none" stroke="#72c8ef" stroke-width="2.3" stroke-linejoin="round">
+      <path d="M190 364l10-17 7 10 5-8 12 15Z"/>
+    </g>
+    <text x="247" y="363" fill="#f5f7f8" font-size="14" text-anchor="middle">625m</text>
+    <!-- Battery icon + value -->
+    <g fill="none" stroke="#70d9a0" stroke-width="2">
+      <rect x="297" y="350" width="20" height="13" rx="2"/><path d="M317 354h3v5h-3"/>
+    </g>
+    <rect x="300" y="353" width="12" height="7" fill="#70d9a0"/>
+    <text x="347" y="363" fill="#f5f7f8" font-size="14" text-anchor="middle">84%</text>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+# Connect IQ build outputs
+/gen/
+/external-mir/
+/internal-mir/
+/*.iq
+/*.prg
+/*.prg.debug.xml
