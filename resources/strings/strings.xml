@@ -1,1 +1,45 @@
-<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd"><string id="VreDo">VreDo</string></strings>
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <string id="VreDo">VreDo</string>
+    <string id="Analogic">Analogică</string>
+    <string id="Digital">Digitală</string>
+    <string id="DigitalTimeTitle">Afișează ora digitală</string>
+    <string id="Complication1Title">Complicație sus stânga</string>
+    <string id="Complication2Title">Complicație sus centru</string>
+    <string id="Complication3Title">Complicație sus dreapta</string>
+    <string id="Complication4Title">Complicație jos stânga</string>
+    <string id="Complication5Title">Complicație jos centru</string>
+    <string id="Complication6Title">Complicație jos dreapta</string>
+    <string id="None">Nimic</string>
+    <string id="Steps">Pași</string>
+    <string id="HeartRate">Puls</string>
+    <string id="Elevation">Altitudine</string>
+    <string id="ActiveCalories">Calorii active</string>
+    <string id="ActiveMinutes">Minute active săptămânale</string>
+    <string id="Battery">Baterie</string>
+    <string id="Temperature">Temperatură</string>
+    <string id="DailyLowHigh">Minimă/maximă</string>
+    <string id="RainChance">Șansă de ploaie</string>
+    <string id="WindSpeed">Vânt</string>
+    <string id="Humidity">Umiditate</string>
+    <string id="SunEvent">Următorul răsărit/apus</string>
+    <string id="TotalCalories">Calorii totale</string>
+    <string id="Distance">Distanță zilnică</string>
+    <string id="FloorsClimbed">Etaje urcate</string>
+    <string id="FloorsGoal">Obiectiv etaje</string>
+    <string id="ActiveMinutesDay">Minute active azi</string>
+    <string id="MoveBar">Bară de mișcare</string>
+    <string id="Respiration">Respirație</string>
+    <string id="Stress">Nivel stres</string>
+    <string id="Recovery">Recuperare</string>
+    <string id="FeelsLike">Temperatură resimțită</string>
+    <string id="DewPoint">Punct de rouă</string>
+    <string id="UVIndex">Indice UV</string>
+    <string id="Pressure">Presiune</string>
+    <string id="CloudCover">Nebulozitate</string>
+    <string id="Visibility">Vizibilitate</string>
+    <string id="WindDirection">Direcția vântului</string>
+    <string id="StepGoal">Obiectiv pași</string>
+    <string id="Pushes">Împingeri</string>
+    <string id="FloorsDescended">Etaje coborâte</string>
+    <string id="MetersClimbed">Metri urcați</string>
+</strings>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="600" viewBox="0 0 920 600">
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#101820"/><stop offset="1" stop-color="#07090b"/></linearGradient>
+    <style>
+      .title{font:700 25px Arial,sans-serif;fill:#f2f4f5}.sub{font:14px Arial,sans-serif;fill:#aeb8bf}
+      .label{font:600 14px Arial,sans-serif;fill:#dfe5e9}.value{font:700 25px Arial,sans-serif;fill:#f4f6f7}
+      .card{fill:#141b21;stroke:#303b43;stroke-width:1.5}.orange{stroke:#ffbd59;fill:#ffbd59}.cloud{stroke:#dce8ef;fill:#dce8ef}
+      .blue{stroke:#72c8ef;fill:none;stroke-width:3;stroke-linecap:round}.muted{stroke:#afbbc5;fill:none;stroke-width:2.5;stroke-linecap:round}
+    </style>
+  </defs>
+  <rect width="920" height="600" rx="24" fill="url(#bg)"/>
+  <text x="38" y="48" class="title">Widgeturi meteo</text>
+  <text x="38" y="74" class="sub">Pictograma se schimbă automat după condiția Garmin. Acum pe cadran: condiție, temperatură și localitate.</text>
+
+  <!-- Weather-condition icons -->
+  <g transform="translate(28 96)">
+    <rect class="card" width="202" height="116" rx="14"/><circle cx="101" cy="45" r="19" class="orange"/>
+    <g class="orange" stroke-width="3" fill="none"><path d="M101 15v-8M71 45h-9M140 45h-9M80 24l-7-7M122 24l7-7M80 66l-6 6M122 66l7 6"/></g>
+    <text x="101" y="96" class="label" text-anchor="middle">Soare</text>
+  </g>
+  <g transform="translate(252 96)">
+    <rect class="card" width="202" height="116" rx="14"/><circle cx="91" cy="39" r="16" class="orange"/><g class="cloud"><circle cx="91" cy="56" r="13"/><circle cx="108" cy="51" r="18"/><circle cx="127" cy="58" r="13"/><rect x="82" y="55" width="54" height="18" rx="8"/></g>
+    <text x="101" y="96" class="label" text-anchor="middle">Parțial noros</text>
+  </g>
+  <g transform="translate(476 96)">
+    <rect class="card" width="202" height="116" rx="14"/><g class="cloud"><circle cx="79" cy="51" r="14"/><circle cx="101" cy="44" r="21"/><circle cx="124" cy="53" r="15"/><rect x="68" y="50" width="68" height="20" rx="9"/></g>
+    <text x="101" y="96" class="label" text-anchor="middle">Noros</text>
+  </g>
+  <g transform="translate(700 96)">
+    <rect class="card" width="192" height="116" rx="14"/><g class="cloud"><circle cx="73" cy="48" r="14"/><circle cx="94" cy="42" r="20"/><circle cx="116" cy="50" r="14"/><rect x="63" y="47" width="63" height="19" rx="9"/></g><path class="blue" d="M79 75l-5 12m24-12l-5 12m24-12l-5 12"/>
+    <text x="96" y="105" class="label" text-anchor="middle">Ploaie</text>
+  </g>
+  <g transform="translate(28 230)">
+    <rect class="card" width="202" height="116" rx="14"/><g class="cloud"><circle cx="76" cy="46" r="14"/><circle cx="99" cy="40" r="20"/><circle cx="122" cy="49" r="14"/><rect x="66" y="46" width="66" height="20" rx="9"/></g><path class="blue" d="M79 72l-5 12m20-12l-5 12"/><path d="M111 70l-9 15h8l-5 12" stroke="#ffbd59" stroke-width="3" fill="none"/>
+    <text x="101" y="105" class="label" text-anchor="middle">Furtună</text>
+  </g>
+  <g transform="translate(252 230)">
+    <rect class="card" width="202" height="116" rx="14"/><g class="cloud"><circle cx="79" cy="45" r="14"/><circle cx="101" cy="39" r="20"/><circle cx="124" cy="48" r="14"/><rect x="68" y="45" width="68" height="19" rx="9"/></g><g class="blue"><path d="M80 77h13m-6-6v13m-4-10l9 8m0-8l-9 8M111 77h13m-6-6v13m-4-10l9 8m0-8l-9 8"/></g>
+    <text x="101" y="105" class="label" text-anchor="middle">Ninsoare</text>
+  </g>
+  <g transform="translate(476 230)">
+    <rect class="card" width="202" height="116" rx="14"/><g class="muted"><path d="M61 46h78M71 58h61M64 70h74"/></g>
+    <text x="101" y="105" class="label" text-anchor="middle">Ceață</text>
+  </g>
+  <g transform="translate(700 230)">
+    <rect class="card" width="192" height="116" rx="14"/><g class="muted"><path d="M55 48h73q13 0 13-9q0-8-11-8M65 61h60q12 0 12 8q0 8-10 8M54 75h54"/></g>
+    <text x="96" y="105" class="label" text-anchor="middle">Vânt</text>
+  </g>
+
+  <text x="38" y="388" class="title" font-size="19">Widgeturi cu valori meteo</text>
+  <text x="38" y="411" class="sub">Acum pe cadran: pictogramă, temperatură și localitate. Min/max, vânt, ploaie și umiditate sunt exemple pentru extindere.</text>
+  <g transform="translate(10 432)">
+    <rect class="card" width="140" height="132" rx="14"/><text x="70" y="36" class="sub" text-anchor="middle">TEMPERATURĂ</text><text x="70" y="80" class="value" text-anchor="middle">18°</text><text x="70" y="110" class="label" text-anchor="middle">Iași</text>
+  </g>
+  <g transform="translate(160 432)">
+    <rect class="card" width="140" height="132" rx="14"/><path d="M35 44v42m-8-8a9 9 0 1 0 16 0V44a8 8 0 0 0-16 0" stroke="#ffbd59" stroke-width="3" fill="none"/><text x="91" y="59" class="sub" text-anchor="middle">MIN / MAX</text><text x="91" y="91" class="value" font-size="20" text-anchor="middle">9° / 22°</text>
+  </g>
+  <g transform="translate(310 432)">
+    <rect class="card" width="140" height="132" rx="14"/><path d="M27 51h43M23 64h40M33 77h38" class="muted"/><text x="91" y="59" class="sub" text-anchor="middle">VÂNT</text><text x="91" y="91" class="value" font-size="20" text-anchor="middle">12 km/h</text>
+  </g>
+  <g transform="translate(460 432)">
+    <rect class="card" width="140" height="132" rx="14"/><path d="M37 43c0 0-15 22-15 32a15 15 0 0 0 30 0c0-10-15-32-15-32Z" stroke="#72c8ef" stroke-width="3" fill="none"/><text x="93" y="59" class="sub" font-size="11" text-anchor="middle">ȘANSĂ PLOAIE</text><text x="93" y="91" class="value" text-anchor="middle">30%</text>
+  </g>
+  <g transform="translate(610 432)">
+    <rect class="card" width="140" height="132" rx="14"/><circle cx="37" cy="66" r="16" stroke="#ffbd59" fill="none" stroke-width="3"/><path d="M37 54v13l8 5" stroke="#ffbd59" fill="none" stroke-width="3"/><text x="92" y="59" class="sub" text-anchor="middle">PLOAIE LA</text><text x="92" y="91" class="value" text-anchor="middle">16:30</text>
+  </g>
+  <g transform="translate(760 432)">
+    <rect class="card" width="140" height="132" rx="14"/><path d="M38 45c0 0-18 25-18 37a18 18 0 0 0 36 0c0-12-18-37-18-37Z" stroke="#72c8ef" stroke-width="3" fill="none"/><text x="94" y="59" class="sub" text-anchor="middle">UMIDITATE</text><text x="94" y="91" class="value" text-anchor="middle">64%</text>
+  </g>
+</svg>

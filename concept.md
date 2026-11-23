@@ -7,14 +7,21 @@
 
 ## Dispunere
 
-- Cadran AMOLED rotund, cu un inel discret și fundal întunecat adaptat condiției meteo.
-- Interfața folosește carduri cu pictograme și valori alăturate, fără nume de câmpuri. Data și widgetul meteo sunt sus, ora mare în centru, iar pulsul, următorul eveniment solar, pașii, caloriile, altitudinea și bateria sunt grupate în două rânduri jos.
-- Ora mare traversează centrul; toate valorile rămân în cercul activ al ecranului.
-- Pictograma și accentul din zona meteo se schimbă după condiția curentă (soare, nori, ploaie, ninsoare). Un ciclu de animații în fundal ar consuma baterie și ar reduce lizibilitatea; condiția meteo poate fi actualizată când se reîmprospătează datele.
+- Cadran analogic inspirat de fotografia de referință, cu cadran întunecat, cifre orare și marcaje aurii. Textul „FĒNIX” este eliminat.
+- Ziua, data și luna rămân vizibile discret sub cifra 12.
+- Vremea este widgetul central, cu pictogramă mare, temperatură și localitate.
+- Pulsul, pașii, caloriile zilnice Garmin și bateria apar ca patru widgeturi compacte cu pictogramă și valoare, așezate în jurul vremii.
+- Acele analogice păstrează ora lizibilă; ecranul activ și AOD folosesc aceeași dispunere, cu desen simplificat și culori estompate în AOD.
+- Pictograma meteo reflectă condiția curentă (soare, nori, ploaie, ninsoare și alte condiții disponibile). Datele se actualizează odată cu datele meteo Garmin.
+
+## Etapa următoare
+
+- Minima și maxima zilei, probabilitatea de ploaie, viteza vântului și umiditatea vor fi adăugate într-o etapă ulterioară.
 
 ## Note pentru implementarea Connect IQ
 
-- Temperatura, maxima/minima, vântul și probabilitatea precipitațiilor se pot citi din `Toybox.Weather`.
+- Temperatura curentă și localitatea se citesc din `Toybox.Weather`.
+- Minima/maxima, probabilitatea precipitațiilor, vântul și umiditatea sunt planificate pentru etapa următoare.
 - Garmin actualizează de regulă vremea aproximativ la 15 minute când ceasul are conexiune; datele nu sunt disponibile în toate regiunile și locația prognozei poate fi aleasă separat de poziția ceasului.
 - API-ul meteo expune probabilitatea precipitațiilor, nu neapărat cantitatea acumulată.
 - Pictogramele și valorile folosesc desenare Connect IQ și font vectorial pentru lizibilitate.

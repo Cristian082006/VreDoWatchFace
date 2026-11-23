@@ -1,0 +1,10 @@
+<properties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/properties.xsd">
+    <property id="showDigitalTime" type="boolean">false</property>
+    <property id="useCustomComplications" type="boolean">false</property>
+    <property id="complication1" type="number">1</property>
+    <property id="complication2" type="number">2</property>
+    <property id="complication3" type="number">3</property>
+    <property id="complication4" type="number">4</property>
+    <property id="complication5" type="number">5</property>
+    <property id="complication6" type="number">6</property>
+</properties>

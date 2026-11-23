@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Schema datelor de pe cadranul VreDo</title>
+  <desc id="desc">Diagramă în limba română cu poziția și semnificația informațiilor de pe cadranul Garmin fēnix.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1017"/><stop offset="1" stop-color="#151f2a"/></linearGradient>
+    <radialGradient id="dial" cx="45%" cy="38%"><stop stop-color="#18232d"/><stop offset=".75" stop-color="#090d12"/><stop offset="1" stop-color="#05070a"/></radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5d76b"/><stop offset="1" stop-color="#ca9e2e"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000" flood-opacity=".35"/></filter>
+    <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#eef3f6}.muted{fill:#9eacb8}.gold{fill:#e2bf4d}.blue{fill:#78c9ec}.orange{fill:#ffab50}.green{fill:#72d6a0}.pink{fill:#ff7680}.panel{fill:#111922;stroke:#293642;stroke-width:2}.tag{font-size:14px;font-weight:700;letter-spacing:1.8px}.body{font-size:17px}.small{font-size:14px}.label{font-size:20px;font-weight:700}.value{font-size:22px;font-weight:700}.line{stroke:#425260;stroke-width:2;fill:none}
+    </style>
+  </defs>
+  <rect width="1600" height="1100" fill="url(#bg)"/>
+  <circle cx="1430" cy="60" r="180" fill="#d7b64a" opacity=".035"/>
+  <text x="72" y="73" class="tag gold">VREDO · GARMIN WATCHFACE</text>
+  <text x="72" y="128" font-size="42" font-weight="700">Ce înseamnă datele de pe cadran</text>
+  <text x="72" y="164" font-size="18" class="muted">Hartă vizuală a informațiilor, unităților și surselor de date · fēnix 7 / fēnix 8</text>
+
+  <!-- Watch face diagram -->
+  <g filter="url(#shadow)">
+    <circle cx="430" cy="574" r="352" fill="#202831" stroke="#75818a" stroke-width="5"/>
+    <circle cx="430" cy="574" r="333" fill="url(#dial)" stroke="#52616e" stroke-width="2"/>
+    <circle cx="430" cy="574" r="303" fill="none" stroke="#303d48" stroke-width="2"/>
+    <circle cx="430" cy="574" r="286" fill="none" stroke="#28343e" stroke-width="1.5"/>
+  </g>
+  <!-- Muted clock hands are drawn behind the data so the legend remains easy to read. -->
+  <g opacity=".28" stroke-linecap="round">
+    <path d="M430 574L341 473" stroke="#eaf0f3" stroke-width="10"/>
+    <path d="M430 574L554 465" stroke="#eaf0f3" stroke-width="7"/>
+    <path d="M430 574L270 737" stroke="#e2bf4d" stroke-width="4"/>
+    <circle cx="430" cy="574" r="10" fill="#e2bf4d"/>
+  </g>
+  <!-- minute marks -->
+  <g stroke="#63717c" stroke-width="2" opacity=".85">
+    <path d="M430 274v20 M580 314l-10 18 M690 424l-18 10 M690 724l-18-10 M580 834l-10-18 M430 874v-20 M280 834l10-18 M170 724l18-10 M130 574h20 M170 424l18 10 M280 314l10 18"/>
+  </g>
+  <g font-size="40" font-weight="700" text-anchor="middle" class="muted">
+    <text x="430" y="316">12</text><text x="560" y="350">1</text><text x="655" y="445">2</text>
+    <text x="655" y="710">4</text><text x="560" y="805">5</text><text x="430" y="839">6</text>
+    <text x="300" y="805">7</text><text x="205" y="710">8</text><text x="205" y="445">10</text><text x="300" y="350">11</text>
+  </g>
+  <text x="430" y="356" text-anchor="middle" font-size="24" class="gold" font-weight="700">☼ 07:05</text>
+  <text x="430" y="381" text-anchor="middle" class="small muted">URMĂTORUL RĂSĂRIT / APUS</text>
+  <g transform="translate(377 436)" fill="none" stroke="#78c9ec" stroke-width="4" stroke-linecap="round">
+    <path d="M0 32c0-10 15-18 28-18s28 8 28 18v4H0z" fill="#b9d9e7" stroke="none"/>
+    <circle cx="28" cy="10" r="9" fill="#f4bd4e" stroke="none"/>
+  </g>
+  <text x="493" y="468" font-size="54" font-weight="700">18°</text>
+  <text x="430" y="507" text-anchor="middle" class="small muted">CONDIȚIA METEO CURENTĂ</text>
+  <g class="small" text-anchor="middle" font-weight="700">
+    <text x="373" y="551" class="gold">♨  6° / 22°</text><text x="487" y="551" class="blue">💧  35%</text>
+    <text x="373" y="584" class="blue">≋  12 km/h</text><text x="487" y="584" class="blue">％  62%</text>
+  </g>
+  <rect x="545" y="555" width="145" height="38" rx="2" fill="#0e141a" stroke="#aab4bb" stroke-width="1.5"/>
+  <text x="617" y="581" text-anchor="middle" font-size="22" font-weight="700" class="gold">JOI 19 NOV</text>
+  <!-- lower six metrics -->
+  <g text-anchor="middle" font-weight="700">
+    <text x="300" y="668" class="orange" font-size="22">🏃 12,460</text>
+    <text x="430" y="668" class="pink" font-size="22">♥ 72</text>
+    <text x="560" y="668" class="blue" font-size="22">⌁ 1,482m</text>
+    <text x="300" y="720" class="orange" font-size="22">♨ 640</text>
+    <text x="430" y="720" class="gold" font-size="22">◷ 38m</text>
+    <text x="560" y="720" class="green" font-size="22">▰ 78%</text>
+  </g>
+  <text x="430" y="756" text-anchor="middle" font-size="25" font-weight="700" class="muted">⌖ Iași</text>
+
+  <!-- Connector from display to legend -->
+  <path d="M790 575H840" class="line"/>
+  <circle cx="840" cy="575" r="5" fill="#d7b64a"/>
+  <text x="74" y="980" class="small muted">Valorile din schiță sunt exemple; pe ceas sunt înlocuite cu datele disponibile.</text>
+
+  <!-- Legend panels -->
+  <g>
+    <rect x="875" y="210" width="650" height="235" rx="20" class="panel"/>
+    <rect x="875" y="210" width="7" height="235" rx="3" fill="#78c9ec"/>
+    <text x="910" y="250" class="tag blue">01 · VREME</text>
+    <text x="910" y="292" class="label">☁ 18°</text><text x="1040" y="292" class="body muted">temperatura și pictograma condiției actuale</text>
+    <text x="910" y="331" class="label gold">6° / 22°</text><text x="1040" y="331" class="body muted">minima / maxima zilei · °C</text>
+    <text x="910" y="370" class="label blue">💧 35% · ≋ 12 km/h · ％ 62%</text><text x="1215" y="370" class="body muted">ploaie · vânt · umiditate</text>
+    <text x="910" y="411" class="body muted">Localitatea este numele locului pentru care sunt furnizate datele meteo.</text>
+
+    <rect x="875" y="465" width="650" height="185" rx="20" class="panel"/>
+    <rect x="875" y="465" width="7" height="185" rx="3" fill="#e2bf4d"/>
+    <text x="910" y="505" class="tag gold">02 · TIMP ȘI SOARE</text>
+    <text x="910" y="547" class="label">Cifrele și acele</text><text x="1120" y="547" class="body muted">ora curentă</text>
+    <text x="910" y="585" class="label">JOI 19 NOV</text><text x="1120" y="585" class="body muted">ziua săptămânii, ziua lunii și luna</text>
+    <text x="910" y="623" class="label gold">☼ 07:05</text><text x="1120" y="623" class="body muted">doar evenimentul următor: răsărit sau apus</text>
+
+    <rect x="875" y="670" width="650" height="230" rx="20" class="panel"/>
+    <rect x="875" y="670" width="7" height="230" rx="3" fill="#ffab50"/>
+    <text x="910" y="710" class="tag orange">03 · ACTIVITATE ȘI SĂNĂTATE</text>
+    <text x="910" y="754" class="label orange">🏃 12,460</text><text x="1060" y="754" class="body muted">pași astăzi</text>
+    <text x="910" y="794" class="label pink">♥ 72 bpm</text><text x="1060" y="794" class="body muted">puls · ultimul eșantion disponibil</text>
+    <text x="910" y="834" class="label blue">⌁ 1,482 m</text><text x="1060" y="834" class="body muted">altitudine curentă, dacă senzorul o oferă</text>
+    <text x="910" y="874" class="label orange">♨ 640 kcal</text><text x="1060" y="874" class="body muted">calorii active estimate · vezi nota de mai jos</text>
+
+    <rect x="875" y="910" width="650" height="122" rx="20" class="panel"/>
+    <rect x="875" y="910" width="7" height="122" rx="3" fill="#72d6a0"/>
+    <text x="910" y="946" class="tag green">04 · SĂPTĂMÂNĂ ȘI CEAS</text>
+    <text x="910" y="982" class="label gold">◷ 38m</text><text x="1010" y="982" class="body muted">minute de intensitate săptămânale</text>
+    <text x="910" y="1016" class="label green">▰ 78%</text><text x="1010" y="1016" class="body muted">nivel baterie</text>
+  </g>
+
+  <rect x="72" y="1038" width="1453" height="42" rx="12" fill="#0a0e13" stroke="#293642"/>
+  <text x="92" y="1065" class="small muted">CALORII ACTIVE: estimate = totalul Garmin al zilei − caloriile de repaus estimate până acum din profil (vârstă, sex, greutate, înălțime); pot diferi de cifra Garmin.</text>
+</svg>

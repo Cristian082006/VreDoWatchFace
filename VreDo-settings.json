@@ -1,0 +1,732 @@
+{
+  "settings" : [ {
+    "key" : "showDigitalTime",
+    "valueType" : "boolean",
+    "defaultValue" : false,
+    "configTitle" : "DigitalTimeTitle",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "complication1",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "Complication1Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "None",
+      "value" : 0
+    }, {
+      "display" : "Steps",
+      "value" : 1
+    }, {
+      "display" : "HeartRate",
+      "value" : 2
+    }, {
+      "display" : "Elevation",
+      "value" : 3
+    }, {
+      "display" : "ActiveCalories",
+      "value" : 4
+    }, {
+      "display" : "ActiveMinutes",
+      "value" : 5
+    }, {
+      "display" : "Battery",
+      "value" : 6
+    }, {
+      "display" : "Temperature",
+      "value" : 7
+    }, {
+      "display" : "DailyLowHigh",
+      "value" : 8
+    }, {
+      "display" : "RainChance",
+      "value" : 9
+    }, {
+      "display" : "WindSpeed",
+      "value" : 10
+    }, {
+      "display" : "Humidity",
+      "value" : 11
+    }, {
+      "display" : "SunEvent",
+      "value" : 12
+    }, {
+      "display" : "TotalCalories",
+      "value" : 13
+    }, {
+      "display" : "Distance",
+      "value" : 14
+    }, {
+      "display" : "FloorsClimbed",
+      "value" : 15
+    }, {
+      "display" : "FloorsGoal",
+      "value" : 16
+    }, {
+      "display" : "ActiveMinutesDay",
+      "value" : 17
+    }, {
+      "display" : "MoveBar",
+      "value" : 18
+    }, {
+      "display" : "Respiration",
+      "value" : 19
+    }, {
+      "display" : "Stress",
+      "value" : 20
+    }, {
+      "display" : "Recovery",
+      "value" : 21
+    }, {
+      "display" : "FeelsLike",
+      "value" : 22
+    }, {
+      "display" : "DewPoint",
+      "value" : 23
+    }, {
+      "display" : "UVIndex",
+      "value" : 24
+    }, {
+      "display" : "Pressure",
+      "value" : 25
+    }, {
+      "display" : "CloudCover",
+      "value" : 26
+    }, {
+      "display" : "Visibility",
+      "value" : 27
+    }, {
+      "display" : "WindDirection",
+      "value" : 28
+    }, {
+      "display" : "StepGoal",
+      "value" : 29
+    }, {
+      "display" : "FloorsDescended",
+      "value" : 30
+    }, {
+      "display" : "MetersClimbed",
+      "value" : 31
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "complication2",
+    "valueType" : "number",
+    "defaultValue" : 2,
+    "configTitle" : "Complication2Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "None",
+      "value" : 0
+    }, {
+      "display" : "Steps",
+      "value" : 1
+    }, {
+      "display" : "HeartRate",
+      "value" : 2
+    }, {
+      "display" : "Elevation",
+      "value" : 3
+    }, {
+      "display" : "ActiveCalories",
+      "value" : 4
+    }, {
+      "display" : "ActiveMinutes",
+      "value" : 5
+    }, {
+      "display" : "Battery",
+      "value" : 6
+    }, {
+      "display" : "Temperature",
+      "value" : 7
+    }, {
+      "display" : "DailyLowHigh",
+      "value" : 8
+    }, {
+      "display" : "RainChance",
+      "value" : 9
+    }, {
+      "display" : "WindSpeed",
+      "value" : 10
+    }, {
+      "display" : "Humidity",
+      "value" : 11
+    }, {
+      "display" : "SunEvent",
+      "value" : 12
+    }, {
+      "display" : "TotalCalories",
+      "value" : 13
+    }, {
+      "display" : "Distance",
+      "value" : 14
+    }, {
+      "display" : "FloorsClimbed",
+      "value" : 15
+    }, {
+      "display" : "FloorsGoal",
+      "value" : 16
+    }, {
+      "display" : "ActiveMinutesDay",
+      "value" : 17
+    }, {
+      "display" : "MoveBar",
+      "value" : 18
+    }, {
+      "display" : "Respiration",
+      "value" : 19
+    }, {
+      "display" : "Stress",
+      "value" : 20
+    }, {
+      "display" : "Recovery",
+      "value" : 21
+    }, {
+      "display" : "FeelsLike",
+      "value" : 22
+    }, {
+      "display" : "DewPoint",
+      "value" : 23
+    }, {
+      "display" : "UVIndex",
+      "value" : 24
+    }, {
+      "display" : "Pressure",
+      "value" : 25
+    }, {
+      "display" : "CloudCover",
+      "value" : 26
+    }, {
+      "display" : "Visibility",
+      "value" : 27
+    }, {
+      "display" : "WindDirection",
+      "value" : 28
+    }, {
+      "display" : "StepGoal",
+      "value" : 29
+    }, {
+      "display" : "FloorsDescended",
+      "value" : 30
+    }, {
+      "display" : "MetersClimbed",
+      "value" : 31
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "complication3",
+    "valueType" : "number",
+    "defaultValue" : 3,
+    "configTitle" : "Complication3Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "None",
+      "value" : 0
+    }, {
+      "display" : "Steps",
+      "value" : 1
+    }, {
+      "display" : "HeartRate",
+      "value" : 2
+    }, {
+      "display" : "Elevation",
+      "value" : 3
+    }, {
+      "display" : "ActiveCalories",
+      "value" : 4
+    }, {
+      "display" : "ActiveMinutes",
+      "value" : 5
+    }, {
+      "display" : "Battery",
+      "value" : 6
+    }, {
+      "display" : "Temperature",
+      "value" : 7
+    }, {
+      "display" : "DailyLowHigh",
+      "value" : 8
+    }, {
+      "display" : "RainChance",
+      "value" : 9
+    }, {
+      "display" : "WindSpeed",
+      "value" : 10
+    }, {
+      "display" : "Humidity",
+      "value" : 11
+    }, {
+      "display" : "SunEvent",
+      "value" : 12
+    }, {
+      "display" : "TotalCalories",
+      "value" : 13
+    }, {
+      "display" : "Distance",
+      "value" : 14
+    }, {
+      "display" : "FloorsClimbed",
+      "value" : 15
+    }, {
+      "display" : "FloorsGoal",
+      "value" : 16
+    }, {
+      "display" : "ActiveMinutesDay",
+      "value" : 17
+    }, {
+      "display" : "MoveBar",
+      "value" : 18
+    }, {
+      "display" : "Respiration",
+      "value" : 19
+    }, {
+      "display" : "Stress",
+      "value" : 20
+    }, {
+      "display" : "Recovery",
+      "value" : 21
+    }, {
+      "display" : "FeelsLike",
+      "value" : 22
+    }, {
+      "display" : "DewPoint",
+      "value" : 23
+    }, {
+      "display" : "UVIndex",
+      "value" : 24
+    }, {
+      "display" : "Pressure",
+      "value" : 25
+    }, {
+      "display" : "CloudCover",
+      "value" : 26
+    }, {
+      "display" : "Visibility",
+      "value" : 27
+    }, {
+      "display" : "WindDirection",
+      "value" : 28
+    }, {
+      "display" : "StepGoal",
+      "value" : 29
+    }, {
+      "display" : "FloorsDescended",
+      "value" : 30
+    }, {
+      "display" : "MetersClimbed",
+      "value" : 31
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "complication4",
+    "valueType" : "number",
+    "defaultValue" : 4,
+    "configTitle" : "Complication4Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "None",
+      "value" : 0
+    }, {
+      "display" : "Steps",
+      "value" : 1
+    }, {
+      "display" : "HeartRate",
+      "value" : 2
+    }, {
+      "display" : "Elevation",
+      "value" : 3
+    }, {
+      "display" : "ActiveCalories",
+      "value" : 4
+    }, {
+      "display" : "ActiveMinutes",
+      "value" : 5
+    }, {
+      "display" : "Battery",
+      "value" : 6
+    }, {
+      "display" : "Temperature",
+      "value" : 7
+    }, {
+      "display" : "DailyLowHigh",
+      "value" : 8
+    }, {
+      "display" : "RainChance",
+      "value" : 9
+    }, {
+      "display" : "WindSpeed",
+      "value" : 10
+    }, {
+      "display" : "Humidity",
+      "value" : 11
+    }, {
+      "display" : "SunEvent",
+      "value" : 12
+    }, {
+      "display" : "TotalCalories",
+      "value" : 13
+    }, {
+      "display" : "Distance",
+      "value" : 14
+    }, {
+      "display" : "FloorsClimbed",
+      "value" : 15
+    }, {
+      "display" : "FloorsGoal",
+      "value" : 16
+    }, {
+      "display" : "ActiveMinutesDay",
+      "value" : 17
+    }, {
+      "display" : "MoveBar",
+      "value" : 18
+    }, {
+      "display" : "Respiration",
+      "value" : 19
+    }, {
+      "display" : "Stress",
+      "value" : 20
+    }, {
+      "display" : "Recovery",
+      "value" : 21
+    }, {
+      "display" : "FeelsLike",
+      "value" : 22
+    }, {
+      "display" : "DewPoint",
+      "value" : 23
+    }, {
+      "display" : "UVIndex",
+      "value" : 24
+    }, {
+      "display" : "Pressure",
+      "value" : 25
+    }, {
+      "display" : "CloudCover",
+      "value" : 26
+    }, {
+      "display" : "Visibility",
+      "value" : 27
+    }, {
+      "display" : "WindDirection",
+      "value" : 28
+    }, {
+      "display" : "StepGoal",
+      "value" : 29
+    }, {
+      "display" : "FloorsDescended",
+      "value" : 30
+    }, {
+      "display" : "MetersClimbed",
+      "value" : 31
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "complication5",
+    "valueType" : "number",
+    "defaultValue" : 5,
+    "configTitle" : "Complication5Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "None",
+      "value" : 0
+    }, {
+      "display" : "Steps",
+      "value" : 1
+    }, {
+      "display" : "HeartRate",
+      "value" : 2
+    }, {
+      "display" : "Elevation",
+      "value" : 3
+    }, {
+      "display" : "ActiveCalories",
+      "value" : 4
+    }, {
+      "display" : "ActiveMinutes",
+      "value" : 5
+    }, {
+      "display" : "Battery",
+      "value" : 6
+    }, {
+      "display" : "Temperature",
+      "value" : 7
+    }, {
+      "display" : "DailyLowHigh",
+      "value" : 8
+    }, {
+      "display" : "RainChance",
+      "value" : 9
+    }, {
+      "display" : "WindSpeed",
+      "value" : 10
+    }, {
+      "display" : "Humidity",
+      "value" : 11
+    }, {
+      "display" : "SunEvent",
+      "value" : 12
+    }, {
+      "display" : "TotalCalories",
+      "value" : 13
+    }, {
+      "display" : "Distance",
+      "value" : 14
+    }, {
+      "display" : "FloorsClimbed",
+      "value" : 15
+    }, {
+      "display" : "FloorsGoal",
+      "value" : 16
+    }, {
+      "display" : "ActiveMinutesDay",
+      "value" : 17
+    }, {
+      "display" : "MoveBar",
+      "value" : 18
+    }, {
+      "display" : "Respiration",
+      "value" : 19
+    }, {
+      "display" : "Stress",
+      "value" : 20
+    }, {
+      "display" : "Recovery",
+      "value" : 21
+    }, {
+      "display" : "FeelsLike",
+      "value" : 22
+    }, {
+      "display" : "DewPoint",
+      "value" : 23
+    }, {
+      "display" : "UVIndex",
+      "value" : 24
+    }, {
+      "display" : "Pressure",
+      "value" : 25
+    }, {
+      "display" : "CloudCover",
+      "value" : 26
+    }, {
+      "display" : "Visibility",
+      "value" : 27
+    }, {
+      "display" : "WindDirection",
+      "value" : 28
+    }, {
+      "display" : "StepGoal",
+      "value" : 29
+    }, {
+      "display" : "FloorsDescended",
+      "value" : 30
+    }, {
+      "display" : "MetersClimbed",
+      "value" : 31
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "complication6",
+    "valueType" : "number",
+    "defaultValue" : 6,
+    "configTitle" : "Complication6Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "None",
+      "value" : 0
+    }, {
+      "display" : "Steps",
+      "value" : 1
+    }, {
+      "display" : "HeartRate",
+      "value" : 2
+    }, {
+      "display" : "Elevation",
+      "value" : 3
+    }, {
+      "display" : "ActiveCalories",
+      "value" : 4
+    }, {
+      "display" : "ActiveMinutes",
+      "value" : 5
+    }, {
+      "display" : "Battery",
+      "value" : 6
+    }, {
+      "display" : "Temperature",
+      "value" : 7
+    }, {
+      "display" : "DailyLowHigh",
+      "value" : 8
+    }, {
+      "display" : "RainChance",
+      "value" : 9
+    }, {
+      "display" : "WindSpeed",
+      "value" : 10
+    }, {
+      "display" : "Humidity",
+      "value" : 11
+    }, {
+      "display" : "SunEvent",
+      "value" : 12
+    }, {
+      "display" : "TotalCalories",
+      "value" : 13
+    }, {
+      "display" : "Distance",
+      "value" : 14
+    }, {
+      "display" : "FloorsClimbed",
+      "value" : 15
+    }, {
+      "display" : "FloorsGoal",
+      "value" : 16
+    }, {
+      "display" : "ActiveMinutesDay",
+      "value" : 17
+    }, {
+      "display" : "MoveBar",
+      "value" : 18
+    }, {
+      "display" : "Respiration",
+      "value" : 19
+    }, {
+      "display" : "Stress",
+      "value" : 20
+    }, {
+      "display" : "Recovery",
+      "value" : 21
+    }, {
+      "display" : "FeelsLike",
+      "value" : 22
+    }, {
+      "display" : "DewPoint",
+      "value" : 23
+    }, {
+      "display" : "UVIndex",
+      "value" : 24
+    }, {
+      "display" : "Pressure",
+      "value" : 25
+    }, {
+      "display" : "CloudCover",
+      "value" : 26
+    }, {
+      "display" : "Visibility",
+      "value" : 27
+    }, {
+      "display" : "WindDirection",
+      "value" : 28
+    }, {
+      "display" : "StepGoal",
+      "value" : 29
+    }, {
+      "display" : "FloorsDescended",
+      "value" : 30
+    }, {
+      "display" : "MetersClimbed",
+      "value" : 31
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "Steps" : "Pași",
+      "Complication2Title" : "Complicație sus centru",
+      "Complication5Title" : "Complicație jos centru",
+      "HeartRate" : "Puls",
+      "Temperature" : "Temperatură",
+      "FeelsLike" : "Temperatură resimțită",
+      "Pushes" : "Împingeri",
+      "VreDo" : "VreDo",
+      "Digital" : "Digitală",
+      "WindSpeed" : "Vânt",
+      "MetersClimbed" : "Metri urcați",
+      "Recovery" : "Recuperare",
+      "Elevation" : "Altitudine",
+      "ActiveMinutes" : "Minute active săptămânale",
+      "FloorsGoal" : "Obiectiv etaje",
+      "ActiveMinutesDay" : "Minute active azi",
+      "Battery" : "Baterie",
+      "Humidity" : "Umiditate",
+      "Complication6Title" : "Complicație jos dreapta",
+      "CloudCover" : "Nebulozitate",
+      "Complication3Title" : "Complicație sus dreapta",
+      "UVIndex" : "Indice UV",
+      "WindDirection" : "Direcția vântului",
+      "FloorsDescended" : "Etaje coborâte",
+      "Distance" : "Distanță zilnică",
+      "FloorsClimbed" : "Etaje urcate",
+      "StepGoal" : "Obiectiv pași",
+      "ActiveCalories" : "Calorii active",
+      "DigitalTimeTitle" : "Afișează ora digitală",
+      "TotalCalories" : "Calorii totale",
+      "DailyLowHigh" : "Minimă/maximă",
+      "DewPoint" : "Punct de rouă",
+      "Complication4Title" : "Complicație jos stânga",
+      "Pressure" : "Presiune",
+      "Stress" : "Nivel stres",
+      "Analogic" : "Analogică",
+      "RainChance" : "Șansă de ploaie",
+      "Complication1Title" : "Complicație sus stânga",
+      "MoveBar" : "Bară de mișcare",
+      "Visibility" : "Vizibilitate",
+      "Respiration" : "Respirație",
+      "None" : "Nimic",
+      "SunEvent" : "Următorul răsărit/apus"
+    }
+  }
+}

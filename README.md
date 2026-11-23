@@ -12,9 +12,11 @@ Prototip Connect IQ pentru **Garmin fēnix 8, 47 mm AMOLED (454 × 454)**.
 
 ## Ce afișează prototipul
 
-Interfața grupează valorile în carduri cu pictograme și valori alăturate, fără nume de câmpuri. Sus sunt data și widgetul meteo complet; ora mare ocupă centrul, iar pulsul, următorul eveniment solar, pașii, caloriile, altitudinea și bateria sunt în două rânduri de carduri jos.
+Interfața nouă este analogică, cu cifre orare și marcaje aurii inspirate de fotografia de referință; textul „FĒNIX” a fost scos. Widgetul meteo mare stă în centru și afișează pictograma condiției actuale, temperatura și localitatea. Pulsul, pașii, caloriile Garmin și bateria au widgeturi compacte proprii, fiecare cu pictogramă și valoare. Ecranul AOD păstrează aceeași dispunere cu desen simplificat.
 
-Macheta folosește date fictive. Când ceasul nu are date meteo, poziționare sau valori de activitate, cadranul afișează marcaje de tip `--` ori un nume generic.
+Minima/maxima zilei, șansa de ploaie, vântul și umiditatea sunt planificate pentru următoarea etapă.
+
+Macheta folosește date fictive. Când ceasul nu are date meteo, poziționare sau valori de activitate, cadranul afișează marcaje de tip `--` ori un nume generic. Numele localității este furnizat de datele meteo Garmin memorate; cadranul nu poate declanșa reîmprospătarea lor, iar localitatea prognozei poate fi setată separat de poziția ceasului.
 
 ## Build
 
